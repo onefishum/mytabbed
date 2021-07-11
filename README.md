@@ -15,7 +15,7 @@
     打开下一个标签  
 - Alt-Shift-j  
 	选择左边标签  
--Alt-Shift-k  
+- Alt-Shift-k  
 	选择右边标签  
 - Alt-t  
 	列表选择标签  
