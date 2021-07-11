@@ -10,7 +10,7 @@ static const char before[]      = "<";
 static const char after[]       = ">";
 static const int  tabwidth      = 200;
 static const Bool foreground    = True;
-
+static const int barHeight	= 24;
 /*
  * Where to place a new tab when it is opened. When npisrelative is True,
  * then the current position is changed + newposition. If npisrelative
