@@ -946,8 +946,8 @@ setup(void) {
 	/* init appearance */
 	wx = 0;
 	wy = 0;
-	ww = 800;
-	wh = 600;
+	ww = 1280;
+	wh = 800;
 	isfixed = 0;
 
 	if(geometry) {
