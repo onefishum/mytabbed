@@ -487,7 +487,7 @@ focusin(const XEvent *e) {
 
 void
 focusonce(const Arg *arg) {
-	nextfocus = True;
+	nextfocus = True; // 这个值决定是否新建后跳转到新建的标签
 }
 
 void

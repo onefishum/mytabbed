@@ -4,7 +4,8 @@
 `tabbed -c -r 2 st -w ''`
 
 ## 设置默认terminal为st
-`gsettings set org.gnome.desktop.default-applications.terminal exec "/usr/local/bin/tabbed -c -r 2 /usr/local/bin/st -w ''"`
+> -p s+1 新建标签id+1
+`gsettings set org.gnome.desktop.default-applications.terminal exec "/usr/local/bin/tabbed -p s+1 -c -r 2 /usr/local/bin/st -w ''"`
 
 ## 快捷键
 - Alt-Shift-t  
