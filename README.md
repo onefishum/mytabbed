@@ -7,6 +7,7 @@
 `gsettings set org.gnome.desktop.default-applications.terminal exec "/usr/local/bin/tabbed -c -r 2 /usr/local/bin/st -w ''"`
 
 ## 快捷键
+<<<<<<< HEAD
 Alt-Shift-t
 	打开一个新标签
 Alt-Shift-h
