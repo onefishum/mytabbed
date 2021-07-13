@@ -31,8 +31,8 @@ static Bool npisrelative  = False;
 //#define MODKEY ControlMask
 static Key keys[] = { \
 	/* modifier                     key        function        argument */
-	{ MODKEY|ShiftMask,             XK_Return, focusonce,      { 0 } },
-	{ MODKEY|ShiftMask,             XK_Return, spawn,          { 0 } },
+	{ MODKEY|ShiftMask,             XK_t, focusonce,      { 0 } },
+	{ MODKEY|ShiftMask,             XK_t, spawn,          { 0 } },
 	{ MODKEY,                       XK_t,      spawn,          SETPROP("_TABBED_SELECT_TAB") },
 
 	{ MODKEY|ShiftMask,             XK_l,      rotate,         { .i = +1 } },
@@ -54,6 +54,6 @@ static Key keys[] = { \
 
 	{ MODKEY,                       XK_q,      killclient,     { 0 } },
 
-	{ 0,                            XK_F11,    fullscreen,     { 0 } },
+	{ Mod1Mask,                     XK_Return,    fullscreen,     { 0 } },
 };
 

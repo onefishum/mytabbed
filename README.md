@@ -7,7 +7,7 @@
 `gsettings set org.gnome.desktop.default-applications.terminal exec "/usr/local/bin/tabbed -c -r 2 /usr/local/bin/st -w ''"`
 
 ## 快捷键
-Alt-Shift-Return
+Alt-Shift-t
 	打开一个新标签
 Alt-Shift-h
 	打开上一个标签
@@ -23,6 +23,6 @@ Alt-q
 	关闭标签
 Alt-[0..9]
 	跳转到标签
-F11
+Alt-Enter
 	全屏切换
 
