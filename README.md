@@ -7,22 +7,22 @@
 `gsettings set org.gnome.desktop.default-applications.terminal exec "/usr/local/bin/tabbed -c -r 2 /usr/local/bin/st -w ''"`
 
 ## 快捷键
-- Alt-Shift-t
+- Alt-Shift-t  
 	打开一个新标签
-- Alt-Shift-h
+- Alt-Shift-h  
 	打开上一个标签
-- Alt-Shift-l
+- Alt-Shift-l  
     打开下一个标签
-- Alt-Shift-j
+- Alt-Shift-j  
 	选择左边标签
-- Alt-Shift-k
+- Alt-Shift-k  
 	选择右边标签
-- Alt-t 
+- Alt-t  
 	列表选择标签
-- Alt-q 
+- Alt-q  
 	关闭标签
-- Alt-[0..9]
+- Alt-[0..9]  
 	跳转到标签
-- Alt-Enter
+- Alt-Enter  
 	全屏切换
 
